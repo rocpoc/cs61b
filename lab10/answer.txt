@@ -1,0 +1,3 @@
+The first error is in the wrap function where if the number is negative it does not add it to the alphabet size. 
+
+The second error is that it is double stepping twice and permutes it before it steps through the other rotors. 

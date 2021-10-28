@@ -1,0 +1,52 @@
+# Test a win before start
+java -ea ataxx.Main
+block a2
+block b1
+block b2
+block c1
+block c2
+block a3
+block b3
+dump
+@<===
+@<  r X X - X X b
+@<  X X X - X X X
+@<  X X - - - X X
+@<  - - - - - - -
+@<  X X - - - X X
+@<  X X X - X X X
+@<  b X X - X X r
+@<===
+g1-e3
+g7-e5
+e3-c3
+e5-d4
+a7-c5
+e5-d3
+c5-c4
+-
+c3-b4
+-
+b4-d2
+-
+c3-b4
+-
+b4-d5
+-
+c3-b4
+-
+b4-d6
+-
+c3-b4
+-
+c3-a4
+a1-c3
+d6-f4
+c3-e3
+c5-c3
+f4-g4
+c3-a1
+g4-e5
+d3-e4
+start
+@<Red wins.

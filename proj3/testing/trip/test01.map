@@ -1,0 +1,21 @@
+L Berkeley 100 323
+L C1 234 234
+L C2 235 211
+L C3 23 11
+L C4 233 411
+L C5 2352 5611
+L C6 2365 2111
+L Oakland 256 6
+
+R Berkeley Telegraph 5 NS C1
+R C1 Telegraph 5.235 NS C2
+R C2 Telegraph 545 NS C3
+R C3 Telegraph 52524 NS C4
+R C4 Telegraph 58 NS C5
+R C5 Telegraph 5.88 NS C6
+R C6 Telegraph .88 NS Oakland
+
+
+
+
+

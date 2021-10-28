@@ -1,0 +1,20 @@
+L First 7 7
+L Last 8 8
+L Middle 9 9
+L C1 1 1
+L C2 2 2
+L C3 3 3
+L C4 4 4
+L C5 5 5
+L C6 6 6
+
+R First T 5 NS C1
+R C1 R 30 EW C2
+R C1 J 7 WE C4
+R C2 T 12 NS C1
+R C3 T 49 NS C4
+R C4 B 1 WE Last
+R C5 K 5.88 NS Middle
+R C6 T .5 NS Last
+R C1 T .5 NS Middle
+R Middle T 10 SN C4

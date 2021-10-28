@@ -1,0 +1,28 @@
+ERROR BUG REPORT:
+
+*Running my program on MacBook Pro 2012 OSX El Capitan, using IntelliJ IDE*
+
+Throughout the entire process of working on this process of working on this project, my make check has been working very inconsistently. I was having errors on most of my own tests and some of the provided ones (8/15 tests), however after I ran make style a majority of these errors disappeared, despite the fact that I only changed style issues.
+
+This behavior of my make files is concerning to me. Though some of my tests now pass, I am still left with some that fail. I have ran these tests using LOAD, and running them through my terminal. When I use this method, the program successfully outputs what is expected.
+
+These are the said tests: 
+	test-ataxx-6.inp >
+	Error message: ERROR (program produced extra output near line 63)
+	This is a test I have written. When run via LOAD, my DUMP is outputted and matches the expected output of the test and outputs Blue wins.
+
+	test05.inp >
+	Error message:  ERROR (invalid move for red (Exception in thread "main" java.lang.AssertionError) near line 9)
+	When I run this manually, I have my two AIs running against each other for about 100 lines until one wins.
+
+	test07.inp >
+	Error message: ERROR (other program fails to finish)
+	I am unsure if I tested this manually in a way that exactly replicates the tests, but I know for a fact that two instances of my AI can successfully run against each other.
+
+
+I noticed that in the autograder I am failing test13.inp and test14.inp. These have similar error messages to test07, so I imagine that these errors may be related.
+
+
+
+
+

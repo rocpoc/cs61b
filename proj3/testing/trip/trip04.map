@@ -1,0 +1,8 @@
+L Syracuse -4195.47 2969.63
+L Nedrow -4195.09 2964.51
+L Tully -4193.58 2953.08
+L Lafayette -4193.5 2959.51
+
+R Syracuse I-81 6.5165 NS Nedrow
+R Nedrow I-81 6.8302 NS Lafayette
+R Tully I-81 6.7594 SN Lafayette

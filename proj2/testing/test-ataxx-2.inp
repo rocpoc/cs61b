@@ -1,0 +1,31 @@
+# Test-Ataxx2 Test
+java -ea ataxx.Main
+block d3
+block c4
+a7-a6
+a1-a2
+a6-a5
+a2-a3
+a5-c5
+a3-a4
+c5-b4
+a2-b3
+dump
+@<===
+@<  r - - - - - b
+@<  r - - - - - -
+@<  - - r X - - -
+@<  b b X - X - -
+@<  b b - X - - -
+@<  b - - - - - -
+@<  b - - - - - r
+@<===
+a7-b7
+b4-b6
+g1-e1
+b3-c1
+e1-e2
+c1-d1
+start
+@<Blue wins.
+quit

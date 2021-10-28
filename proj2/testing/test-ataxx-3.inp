@@ -1,0 +1,27 @@
+## Checking clear after game and Looping.
+java -ea ataxx.Main
+a7-a6
+g7-g6
+g1-g3
+g7-g5
+g3-f5
+a1-c3
+a6-a5
+c3-e5
+g6-f6
+start
+@<Red wins.
+clear
+manual blue
+start
+a7-a6
+g7-g6
+g1-g3
+g7-g5
+g3-f5
+a1-c3
+a6-a5
+c3-e5
+g6-f6
+@<Red wins.
+quit
